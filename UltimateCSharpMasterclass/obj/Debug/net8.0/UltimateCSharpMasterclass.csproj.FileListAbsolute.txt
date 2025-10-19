@@ -1,0 +1,15 @@
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.AssemblyInfoInputs.cache
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.AssemblyInfo.cs
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.sourcelink.json
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\bin\Debug\net8.0\UltimateCSharpMasterclass.exe
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\bin\Debug\net8.0\UltimateCSharpMasterclass.deps.json
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\bin\Debug\net8.0\UltimateCSharpMasterclass.runtimeconfig.json
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\bin\Debug\net8.0\UltimateCSharpMasterclass.dll
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\bin\Debug\net8.0\UltimateCSharpMasterclass.pdb
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.dll
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\refint\UltimateCSharpMasterclass.dll
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.pdb
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\UltimateCSharpMasterclass.genruntimeconfig.cache
+C:\Users\Guilherme\source\repos\UltimateCSharpMasterclass\UltimateCSharpMasterclass\obj\Debug\net8.0\ref\UltimateCSharpMasterclass.dll
