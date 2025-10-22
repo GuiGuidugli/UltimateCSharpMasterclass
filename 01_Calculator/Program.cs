@@ -7,8 +7,6 @@ public class Calculator
 
         Console.WriteLine("Hello!");
 
-        Console.WriteLine("Input the first number:");
-        
         int firstNumber;
         int secondNumber;
 
@@ -24,7 +22,7 @@ public class Calculator
 
         while (true)
         {
-            Console.WriteLine("Input the first number:");
+            Console.WriteLine("Input the second number:");
             var line = Console.ReadLine();
             if (int.TryParse(line, out secondNumber))
                 break;
