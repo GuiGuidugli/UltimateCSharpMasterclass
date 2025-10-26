@@ -1,4 +1,4 @@
-﻿namespace Calculator;   
+﻿namespace _01_Calculator; 
 
 public class Calculator
 {
@@ -43,8 +43,9 @@ public class Calculator
                 Console.WriteLine($"The result is: {firstNumber - secondNumber}");
                 break;
             case "M":
-                Console.WriteLine($"The result is: {firstNumber * secondNumber}");
-                break;
+            // Console.WriteLine($"The result is: {firstNumber * secondNumber}");
+            // break;
+            // validate if the second number is zero
             default:
                 Console.WriteLine("Invalid option selected.");
                 break;
