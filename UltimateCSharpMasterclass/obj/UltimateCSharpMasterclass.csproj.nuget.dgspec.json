@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass.csproj": {}
+    "/home/guilherme/UltimateCSharpMasterclass/UltimateCSharpMasterclass/UltimateCSharpMasterclass.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass.csproj": {
+    "/home/guilherme/UltimateCSharpMasterclass/UltimateCSharpMasterclass/UltimateCSharpMasterclass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass.csproj",
+        "projectUniqueName": "/home/guilherme/UltimateCSharpMasterclass/UltimateCSharpMasterclass/UltimateCSharpMasterclass.csproj",
         "projectName": "UltimateCSharpMasterclass",
-        "projectPath": "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass.csproj",
-        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass\\obj\\",
+        "projectPath": "/home/guilherme/UltimateCSharpMasterclass/UltimateCSharpMasterclass/UltimateCSharpMasterclass.csproj",
+        "packagesPath": "/home/guilherme/.nuget/packages/",
+        "outputPath": "/home/guilherme/UltimateCSharpMasterclass/UltimateCSharpMasterclass/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/guilherme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/guilherme/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

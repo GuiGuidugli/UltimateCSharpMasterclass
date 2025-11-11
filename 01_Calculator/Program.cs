@@ -38,16 +38,21 @@ public class Calculator
         {
             case "A":
                 Console.WriteLine($"The result is: {firstNumber + secondNumber}"); // -> "$" is used for string interpolation, when we insert variables inside a string
+                Console.WriteLine("Press any key to close.");
+                Console.ReadKey();
                 break;
             case "S":
                 Console.WriteLine($"The result is: {firstNumber - secondNumber}");
+                Console.WriteLine("Press any key to close.");
+                Console.ReadKey();
                 break;
             case "M":
-            // Console.WriteLine($"The result is: {firstNumber * secondNumber}");
-            // break;
-            // validate if the second number is zero
+                Console.WriteLine($"The result is: {firstNumber * secondNumber}");
+                break;
             default:
-                Console.WriteLine("Invalid option selected.");
+                Console.WriteLine("Invalid option.");
+                Console.WriteLine("Press any key to close.");
+                Console.ReadKey();
                 break;
         }
 

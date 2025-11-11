@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\guilh\\.nuget\\packages\\": {}
+    "/home/guilherme/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\01_TodoList\\01_TodoList.csproj",
+      "projectUniqueName": "/home/guilherme/UltimateCSharpMasterclass/01_TodoList/01_TodoList.csproj",
       "projectName": "01_TodoList",
-      "projectPath": "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\01_TodoList\\01_TodoList.csproj",
-      "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guilh\\source\\repos\\UltimateCSharpMasterclass\\01_TodoList\\obj\\",
+      "projectPath": "/home/guilherme/UltimateCSharpMasterclass/01_TodoList/01_TodoList.csproj",
+      "packagesPath": "/home/guilherme/.nuget/packages/",
+      "outputPath": "/home/guilherme/UltimateCSharpMasterclass/01_TodoList/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/guilherme/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/guilherme/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
