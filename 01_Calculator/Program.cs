@@ -4,58 +4,44 @@ public class Calculator
 {
     public static int Main()
     {
-
+        
+        void PrintFinalEquation (int number1, int number2, int result, string @operator)
+        {
+            Console.WriteLine(number1 + " " + @operator + " " + number2 + " = " + result);
+        }
+        bool EqualsCaseInsensitive(string left, string right)
+        {
+            return left.ToUpper() == right.ToUpper();    
+        }
+        
         Console.WriteLine("Hello!");
-
-        int firstNumber;
-        int secondNumber;
-
-        while (true)
-        {
-            Console.WriteLine("Input the first number:");
-            var line = Console.ReadLine();
-            if (int.TryParse(line, out firstNumber))
-                break;
-
-            Console.WriteLine("Invalid number. Please enter a valid number.");
-        }
-
-        while (true)
-        {
-            Console.WriteLine("Input the second number:");
-            var line = Console.ReadLine();
-            if (int.TryParse(line, out secondNumber))
-                break;
-
-            Console.WriteLine("Invalid number. Please enter a valid number.");
-        }
-
-
+        Console.WriteLine("Input the first number:");
+        var firstAsText = Console.ReadLine();
+        var number1 = int.Parse(firstAsText);
+        Console.WriteLine("Input the second number:");
+        var secondAsText = Console.ReadLine();
+        var number2 = int.Parse(secondAsText);
+        
         Console.WriteLine("What do you want to do?\n [A]dd numbers\n [S]ubtract numbers\n [M]ultiply numbers");
-        var userChoice = Console.ReadLine()!.ToUpper();
+        var choice = Console.ReadLine();
 
-        switch (userChoice)
+        if (EqualsCaseInsensitive(choice, "A"))
         {
-            case "A":
-                Console.WriteLine($"The result is: {firstNumber + secondNumber}"); // -> "$" is used for string interpolation, when we insert variables inside a string
-                Console.WriteLine("Press any key to close.");
-                Console.ReadKey();
-                break;
-            case "S":
-                Console.WriteLine($"The result is: {firstNumber - secondNumber}");
-                Console.WriteLine("Press any key to close.");
-                Console.ReadKey();
-                break;
-            case "M":
-                Console.WriteLine($"The result is: {firstNumber * secondNumber}");
-                break;
-            default:
-                Console.WriteLine("Invalid option.");
-                Console.WriteLine("Press any key to close.");
-                Console.ReadKey();
-                break;
+            var sum = number1 + number2;
+            PrintFinalEquation(number1, number2, sum, "+");
         }
-
+        else if (EqualsCaseInsensitive(choice, "S"))
+        {
+            var difference = number1 -  number2;
+            PrintFinalEquation(number1, number2, difference, "-");
+        }
+        else if (EqualsCaseInsensitive(choice, "M"))
+        {
+            var multiplication = number1 * number2;
+            PrintFinalEquation(number1, number2, multiplication, "*");
+        }
+        
         return 0;
     }
+    
 }
