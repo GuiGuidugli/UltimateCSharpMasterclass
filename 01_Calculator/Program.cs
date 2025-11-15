@@ -18,6 +18,7 @@ public class Calculator
         Console.WriteLine("Input the first number:");
         var firstAsText = Console.ReadLine();
         var number1 = int.Parse(firstAsText);
+        
         Console.WriteLine("Input the second number:");
         var secondAsText = Console.ReadLine();
         var number2 = int.Parse(secondAsText);
@@ -39,6 +40,10 @@ public class Calculator
         {
             var multiplication = number1 * number2;
             PrintFinalEquation(number1, number2, multiplication, "*");
+        }
+        else
+        {
+            Console.WriteLine("Invalid choice.");
         }
         
         return 0;
