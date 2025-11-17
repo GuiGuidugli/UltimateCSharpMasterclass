@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1pg68XQHZZg=",
+  "dgSpecHash": "ckp8cAfKl90=",
   "success": true,
-  "projectFilePath": "/home/guilherme/UltimateCSharpMasterclass/UltimateCSharpMasterclass/UltimateCSharpMasterclass.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\guilh\\RiderProjects\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass\\UltimateCSharpMasterclass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
