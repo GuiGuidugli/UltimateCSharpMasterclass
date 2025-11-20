@@ -1,40 +1,37 @@
-﻿Console.WriteLine("Hello!");
-Console.WriteLine("What do you want to do?");
+﻿Console.WriteLine("Hello! What do you want to do?");
 Console.WriteLine("[S]ee all TODOs");
-Console.WriteLine("[A]dd a TODO");
 Console.WriteLine("[R]emove a TODO");
 Console.WriteLine("[E]xit");
 
-bool IsLong(string input)
-{
-    return input.Length > 10;
-}
-
-void PrintSelectedOption(string selectedOption)
-{
-    Console.WriteLine($"Selected option: {selectedOption}");
-}
-
 var userChoice = Console.ReadLine();
-bool isLong = IsLong(userChoice);
 
 switch (userChoice)
 {
     case "S":
+    case "s":
         PrintSelectedOption("See all TODOs");
+        Console.WriteLine("Another line");
         break;
     case "A":
-        PrintSelectedOption("Add a TODO");
+    case "a":
+        Console.WriteLine("Add a TODO");
         break;
     case "R":
-        PrintSelectedOption("Remove a TODO");
+    case "r":
+        Console.WriteLine("Remove a TODO");
         break;
     case "E":
-        PrintSelectedOption("Exit");
+    case "e":
+        Console.WriteLine("Exit");
         break;
     default:
         Console.WriteLine($"Invalid choice: {userChoice}");
         break;
+}
+
+void PrintSelectedOption(string selectedOption)
+{
+     Console.WriteLine($"Selected option: {selectedOption}");
 }
 
 Console.ReadKey();
